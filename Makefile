@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -Wall
+CFLAGS = -Wall -Iinclude
 LDFLAGS = -lm
 TARGET = bin/main
 SOURCEDIR = ./source
